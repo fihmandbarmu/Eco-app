@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoPlanet - Ecosystems & Planet Issues</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="logo">🌿 EcoPlanet</div>
+    <nav>
+      <a href="#issues">Planet Issues</a>
+      <a href="#facts">Eco Facts</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Protecting Our Planet's Ecosystems</h1>
+    <p>Discover key environmental challenges, amazing eco-facts, and test your green knowledge!</p>
+    <a href="#issues" class="btn">Explore Issues</a>
+  </section>
+
+  <main class="container">
+    <!-- Planetary Issues Section -->
+    <section id="issues" class="section">
+      <h2>Major Global Environmental Issues</h2>
+      <div class="card-grid" id="issues-grid">
+        <!-- Dynamically loaded via JavaScript -->
+      </div>
+    </section>
+
+    <!-- Eco Facts Section -->
+    <section id="facts" class="section">
+      <h2>Did You Know? (Eco Facts)</h2>
+      <div class="fact-box">
+        <p id="fact-text">Click the button below to generate a fast eco fact!</p>
+        <button id="fact-btn" class="btn">Get Eco Fact</button>
+      </div>
+    </section>
+
+    <!-- Interactive Quiz Section -->
+    <section id="quiz" class="section">
+      <h2>Test Your Eco Knowledge</h2>
+      <div class="quiz-container">
+        <div id="quiz-content">
+          <p id="question-text">Question will appear here</p>
+          <div id="options-container" class="options-grid"></div>
+        </div>
+        <p id="quiz-result" class="quiz-result"></p>
+        <button id="next-btn" class="btn" style="display: none;">Next Question</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 EcoPlanet App. Built for a greener future 🌍</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
